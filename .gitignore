@@ -28,6 +28,7 @@ parts/
 sdist/
 var/
 venv/
+.ipynb_checkpoints/
 *.egg-info/
 .installed.cfg
 *.egg

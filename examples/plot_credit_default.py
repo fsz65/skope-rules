@@ -41,7 +41,7 @@ print(__doc__)
 rng = np.random.RandomState(1)
 
 # Importing data
-dataset = load_credit_data()
+dataset = load_credit_data('..\..\skope\data\credit_card.xls')
 X = dataset.data
 y = dataset.target
 # Shuffling data, preparing target and variables
