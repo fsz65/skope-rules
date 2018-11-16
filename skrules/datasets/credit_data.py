@@ -44,5 +44,5 @@ def load_credit_data(file_path):
     )
     return dataset
 if __name__ == '__main__':
-    dataset = load_credit_data('..\..\..\skope\data\credit_card.xls')
+    dataset = load_credit_data('..\..\data\credit_card.xls')
     print(dataset)
